@@ -6,4 +6,4 @@ As guides are meant to target unique genomic regions it's beneficial to know how
 findCommonMers takes in a reference genome in fasta format (-r) and a user defined count threshold (-t) to generate a set of common kmers. However, on it's own findCommonMers prints out all 17mers that are >= the user defined threshold. 
 
 # Limitations
-This shit here will DEFINITELY crash your mac air if you run it on a reletively large genome. There are over 17 billion possible 17mers which are populated in a dictionary as strings. Probably need to at least store things as 1's and 0's, write temp files to the disk, and learn C. 
+This shit here will DEFINITELY crash your mac air if you run it on a reletively large genome but if you have a server then it's fine and fast. There are over 17 billion possible 17mers which are populated in a dictionary as strings. Might want to store things as 1's and 0's, write temp files to the disk, and learn C. 
